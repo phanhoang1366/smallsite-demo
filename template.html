@@ -1,0 +1,29 @@
+<!--
+
+When someone forgot to renew the site.
+Source code available at https://github.com/phanhoang1366/smallsite-demo
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="output.css" rel="stylesheet">
+</head>
+<body class="container box-border flex flex-col items-center justify-center h-screen px-4 mx-auto text-center text-white bg-zinc-800">
+	<h1 class="inline-block text-left w-fit{{ ' text-red-300' if status >= 400 else '' }}">
+        <span class="my-4 text-xl font-semibold">HTTP {{status}}</span><br>
+        <span class="my-4 text-5xl font-bold">{{message}}</span>
+    </h1>
+
+  <div class="absolute text-lg inset-x-0 bottom-2">
+    <span>Looking for the</span>
+    <a class="text-blue-300 visited:text-purple-300" href="http://thpt-lehongphong-nd.edu.vn/">Official page</a>,
+    <a class="text-blue-300 visited:text-purple-300" href="http://lehongphong.ntucoder.net/Home">LHPcoder</a>,
+    <a class="text-blue-300 visited:text-purple-300" href="http://tinlhp.com/">TinLHP</a>, or
+    <a class="text-blue-300 visited:text-purple-300" href="http://chuyentinlhp.com/">ChuyenTinLHP</a>?
+  </div>
+</body>
+</html>

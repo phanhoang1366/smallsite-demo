@@ -1,0 +1,1 @@
+{"id":"477ebcd0-c263-4830-b892-8fe00c1ab41a","space":37095,"runtime":"python3.9","name":"smallweb_micro","path":"ufyz57","project":"c0tlb0aj","account":"144798365827","region":"ap-southeast-1","deps":["Flask"],"envs":null,"public":true,"log_level":"off","cron":""}
